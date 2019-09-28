@@ -1,0 +1,112 @@
+body {
+    background-image: url("images/anya_hurd.jpg");
+    opacity: 1;
+    background-color:whitesmoke;
+    font-family: calibri;
+    color: rgb(40, 90, 199);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*background-image: url("images/anya_hurd.jpg");*/
+    background-size: 600px;
+    height: 400%; 
+    margin: 20px 40px;
+    font-size: 20pt; 
+}
+ header a {
+     height: 100px;
+ }
+header .logo a {
+    background-image: url("Images/TAD.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    width: 100px;
+    display: inline-block;
+    height: 100;
+    text-indent: -99999px;
+}
+section {
+    Color: light-grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    background: grey;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+
+}
+a {
+    text-decoration: none
+}
+a:hover{
+    text-decoration: underline
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{display:inline;
+margin-right: 10px;}
+
+footer {
+
+    color: light-gray;
+    padding: 20px;
+}
+
+/* Form CSS contact*/
+.ccform {
+    margin: 0 40px;
+     width: 800px;
+ }
+ .ccfield-prepend{
+    margin-left: 40px; 
+    margin-bottom:10px;
+     width:100%;
+ }
+ 
+ .ccform-addon{
+     color:#f8ae45; 
+     float:left;
+     padding:8px;
+     width:8%;
+     background:#FFFFFF;
+     text-align:Left;	
+ }
+ 
+ .ccformfield {
+     color:#000000; 
+     background:#FFFFFF;
+     border:none;
+     padding:15.5px;
+     width:91.9%;
+     display:block;
+     font-family: 'Lato',Arial,sans-serif;
+     font-size:14px;
+ }
+ 
+ .ccformfield {
+     font-family: 'Lato',Arial,sans-serif;
+ }
+ .ccbtn{
+     display:block;
+     border:none;
+     background:#f8ae45;
+     color:#FFFFFF;
+     padding:12px 25px;
+     cursor:pointer;
+     text-decoration:none;
+     font-weight:bold;
+ }
+ .ccbtn:hover{
+     background:#d8850e;
+ 
+ }
